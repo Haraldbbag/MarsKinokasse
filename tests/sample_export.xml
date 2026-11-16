@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ROWO_Export>
+ <Show>
+  <ShowID>100</ShowID><Screen>Kino 1</Screen><ScreenNr>1</ScreenNr><ScreenName>Saal 1</ScreenName>
+  <ShowTime>2026-11-16 17:00</ShowTime><Title>Testfilm</Title><RunTime>117</RunTime>
+  <PreliminaryRunTime>15</PreliminaryRunTime><ShowEndTime>2026-11-16 19:12</ShowEndTime>
+  <Viewer>7</Viewer><still_available>374</still_available><release_text>Digital</release_text><FSK>12</FSK>
+ </Show>
+ <Show>
+  <ShowID>101</ShowID><Screen>Kino 1</Screen><ScreenNr>1</ScreenNr><ScreenName>Saal 1</ScreenName>
+  <ShowTime>2026-11-16 19:45</ShowTime><Title>Testfilm (OmdU)</Title><RunTime>117</RunTime>
+  <PreliminaryRunTime>15</PreliminaryRunTime><ShowEndTime>2026-11-16 21:57</ShowEndTime>
+  <Viewer>31</Viewer><still_available>350</still_available>
+ </Show>
+ <Show>
+  <ShowID>102</ShowID><Screen>Kino 1</Screen><ScreenNr>1</ScreenNr><ScreenName>Saal 1</ScreenName>
+  <ShowTime>2026-11-17 19:00</ShowTime><Title>_LEV_Lesung mit Gespr&#228;ch</Title><RunTime>100</RunTime>
+  <PreliminaryRunTime>15</PreliminaryRunTime><ShowEndTime>2026-11-17 20:55</ShowEndTime>
+  <Viewer>223</Viewer><still_available>158</still_available>
+ </Show>
+ <Show>
+  <ShowID>103</ShowID><Screen>Kino 3</Screen><ScreenNr>3</ScreenNr><ScreenName>Saal 3</ScreenName>
+  <ShowTime>2026-11-16 22:30</ShowTime><Title>Mitternacht</Title><RunTime>140</RunTime>
+  <PreliminaryRunTime>15</PreliminaryRunTime><ShowEndTime>2026-11-17 01:05</ShowEndTime>
+  <Viewer>12</Viewer><still_available>95</still_available>
+ </Show>
+</ROWO_Export>

@@ -1,0 +1,81 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MARS Kinokasse",
+        "description": "GetRoWo-Export der MARS-Kasse (z. B. Museum Port 3080, Blaue Brücke Port 3070).",
+        "data": {
+          "name": "Name",
+          "host": "Host (MARS-Rechner)",
+          "port": "Port",
+          "user_id": "GetRoWoID",
+          "password": "GetRoWoPass"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "MARS-Export nicht erreichbar (Netz, Port oder Zugangsdaten prüfen)",
+      "invalid_answer": "Antwort ist kein GetRoWo-Export"
+    },
+    "abort": {
+      "already_configured": "Dieser Export ist schon eingerichtet"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "description": "Je Saal den Spielplan-Kalender des Kinoservers wählen (ha_dcp2000). Leer = nur Termine aus MARS.",
+        "data": {
+          "screens": "Anzahl Säle",
+          "scan_minutes": "Kasse abrufen alle (Min.)",
+          "tolerance_minutes": "Zuordnung Kasse ↔ Kinoserver ± (Min.)",
+          "day_start": "Spieltag beginnt um",
+          "keep_days": "Gelaufene Vorstellungen aufbewahren (Tage)",
+          "calendar_1": "Kino 1: Kalender Kinoserver",
+          "calendar_2": "Kino 2: Kalender Kinoserver",
+          "calendar_3": "Kino 3: Kalender Kinoserver",
+          "calendar_4": "Kino 4: Kalender Kinoserver",
+          "calendar_5": "Kino 5: Kalender Kinoserver",
+          "calendar_6": "Kino 6: Kalender Kinoserver",
+          "calendar_7": "Kino 7: Kalender Kinoserver",
+          "calendar_8": "Kino 8: Kalender Kinoserver",
+          "calendar_9": "Kino 9: Kalender Kinoserver"
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "connection": {
+        "name": "Kasse erreichbar"
+      }
+    },
+    "sensor": {
+      "last_update": {
+        "name": "Letzter Abruf"
+      },
+      "next_viewers": {
+        "name": "Zuschauer nächste Vorstellung"
+      },
+      "running_viewers": {
+        "name": "Zuschauer laufende Vorstellung"
+      },
+      "next_start": {
+        "name": "Beginn nächste Vorstellung"
+      },
+      "first_start": {
+        "name": "Beginn erste Vorstellung"
+      },
+      "last_start": {
+        "name": "Beginn letzte Vorstellung"
+      },
+      "last_end": {
+        "name": "Ende letzte Vorstellung"
+      },
+      "shows_today": {
+        "name": "Vorstellungen heute"
+      }
+    }
+  }
+}
